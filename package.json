@@ -1,0 +1,26 @@
+{
+  "name": "gulp-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnabBanerji/gulp-pack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArnabBanerji/gulp-pack/issues"
+  },
+  "homepage": "https://github.com/ArnabBanerji/gulp-pack#readme",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "jsdom": "^11.0.0"
+  }
+}

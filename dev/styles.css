@@ -1,0 +1,44 @@
+.test {
+    width: 50px;
+    height: 100px;
+    border: 1px solid;
+    padding: 0;
+    margin: 5px;
+    float: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    position: absolute;
+}
+
+.test1 {
+    background: #beffc9;
+    animation: turn 1s 1s linear both;
+}
+
+.test2 {
+    background: #e07878;
+    /*animation: turn2 1s 1s linear both;*/
+}
+
+.test3 {
+    background: #cec6ec;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotateX(90deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes turn2 {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateX(90deg);
+    }
+}
